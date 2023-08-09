@@ -6,25 +6,20 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pojo.UsuarioPojo;
-
-// Static ajuda a deixar o texto dos parametros menores;
-
 import static io.restassured.RestAssured.*;
-
 import static org.hamcrest.Matchers.*;
 @DisplayName("Testes de API Rest do módulo de Produto")
 public class ProdutoTest {
     private String token;
-    @BeforeEach // Assim, sempre terá esses atributos antes dos testes, entregando o Token nas requisições.
+    @BeforeEach
     public void beforeEach() {
 
         // Configurando os dados da API Rest da Lojinha
         baseURI = "http://165.227.93.41";
-        //port = 8080;
+
         basePath = "/lojinha";
 
-        // Aqui iremos montar um Json do body com a Class UsuarioPojo
-        // Lembrando que é preciso da biblioteca Jackson
+        // Aqui iremos montar um Json do body com a Class UsuarioPojo com o Jackson
         UsuarioPojo usuario = new UsuarioPojo("admin", "admin");
 
         // Obter o Token do usuário Admin

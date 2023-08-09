@@ -37,7 +37,10 @@
     Jackson é uma biblioteca popular para manipulação de JSON em Java.
 <hr>
 
-Neste projeto testamos dois casos de testes baseados nas regras de negócios para a aplicação de uma loja web, por meio da sua API.
+### Notas Gerais
+Neste projeto testamos casos de testes de uma loja web, por meio da sua API.
+Testes para validar partições de equivalência vinculadas as regras de negócios, validando que o produto tenham valores entre R$ 0,01 e R$ 7.000,00.
 
- - [ ] Validar que o valor do produto igual a 7000.01 não é permitido;
- - [ ]  Validar que o valor do produto igual a 0.00 não é permitido.
+
+ - [ ] CT01 - Validar que o valor do produto igual a 7000.01 não é permitido;
+ - [ ] CT02 - Validar que o valor do produto igual a 0.00 não é permitido.

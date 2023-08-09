@@ -6,6 +6,8 @@ import pojo.ProdutoPojo;
 import java.util.ArrayList;
 import java.util.List;
 public class ProdutoDataFactory {
+
+    // Criando um produto
     public static ProdutoPojo criarProdutoComValorIgualA(double valor) {
         ProdutoPojo produto = new ProdutoPojo();
         produto.setProdutoNome("Computador");
