@@ -24,7 +24,7 @@ public class ProdutoTest {
         basePath = "/lojinha";
 
         // Aqui iremos montar um Json do body com a Class UsuarioPojo
-        // Lembrando que é preciso da biblioteca Jacskon
+        // Lembrando que é preciso da biblioteca Jackson
         UsuarioPojo usuario = new UsuarioPojo("admin", "admin");
 
         // Obter o Token do usuário Admin
