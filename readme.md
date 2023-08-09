@@ -39,7 +39,7 @@
 
 ### Notas Gerais
 Neste projeto testamos casos de testes de uma loja web, por meio da sua API.
-Testes para validar partições de equivalência vinculadas as regras de negócios, validando que o produto tenham valores entre R$ 0,01 e R$ 7.000,00.
+Testes para validar partições de equivalência vinculadas as regras de negócios, validando que os produtos tenham valores entre R$ 0,01 e R$ 7.000,00.
 
 
  - [ ] CT01 - Validar que o valor do produto igual a 7000.01 não é permitido;
