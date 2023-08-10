@@ -44,3 +44,12 @@ Testes para validar partições de equivalência vinculadas as regras de negóci
 
  - [ ] CT01 - Validar que o valor do produto igual a 7000.01 não é permitido;
  - [ ] CT02 - Validar que o valor do produto igual a 0.00 não é permitido.
+
+
+### Sobre o Código
+
+- Foram utilizadas classes POJO (Plain Old Java Object), objetos com design simples, que armazenam os dados enviados para a API;
+- Os dados iniciais foram criados na classe Data Factory, facilitanto a criação e o controle;
+- Através da notação Before Each capturamos o Token que será utilizado posteriormente nos métodos do teste.
+
+> Obrigado se leu até aqui! Fico há disposição para bater um papo sobre o assunto e melhorias no código. =D
